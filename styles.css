@@ -1,0 +1,177 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    min-height: 100svh;
+    color: hsl(30, 10%, 34%);
+}
+
+main {
+    background-color: hsl(0, 0%, 100%);
+    max-width: 40rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+@media screen and (min-width: 768px) {
+    main {
+        border-radius: 16px;
+        padding-top: 26px;
+        margin-block: 4rem;
+    }
+
+    .image-card {
+        padding: 0 2rem;
+    }
+
+    .image-omelette{
+        border-radius: 10px;
+
+    }
+    
+}
+
+.titles{
+    font-weight: 700;
+    color: hsl(24, 5%, 18%);;
+}
+
+.image-omelette {
+    display: block;
+    max-width: 100%;
+}
+
+.card-content {
+    padding: 2rem;
+}
+
+.recipe-heading {
+    font-family: "Young Serif", serif;
+    margin-bottom: 1.5rem;
+    font-size: 2.2rem;
+    color: hsl(24, 5%, 18%);
+}
+
+.description {
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+/* Preparation */
+.cooking-time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 2rem;
+}
+
+.prep-heading {
+    color: hsl(332, 51%, 32%);
+    font-size: 1.2rem;
+}
+
+
+.cooking-time li::marker {
+    color: hsl(332, 51%, 32%);
+
+}
+
+.cooking-time ul li {
+    padding-left: 12px;
+    line-height: 2em;
+}
+
+.cooking-time ul li strong {
+    color: hsl(24, 5%, 18%);
+}
+/* Preparation end*/
+
+
+/* Ingredients */
+
+.ingredients {
+    margin-top: 2rem;
+    border-bottom: 1px solid rgb(205, 205, 205);
+    padding-bottom: 2rem;
+}
+
+.ingredients h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+}
+
+
+.ingredients li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredients ul li {
+    padding-left: 12px;
+    line-height: 2em;
+
+}
+/* Ingredients end*/
+
+
+/* Instructions */
+.instructions {
+    border-bottom: 1px solid rgb(205, 205, 205);
+    margin-top: 1.5rem;
+    padding-bottom: 2rem;
+
+}
+
+.instructions h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+}
+
+.instructions li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.instructions li {
+    padding-left: 12px;
+    padding-top: 10px;
+    line-height: 2em;
+
+}
+/* Instructions end*/
+
+
+/* Nutrition */
+.nutrition {
+    padding: 12px 10px 0 10px;
+    margin-top: 1.5rem;
+}
+
+.nutrition h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    padding-bottom: 1rem;
+
+}
+
+.item-amt {
+    color: hsl(14, 45%, 36%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+}
+
+.tbl-row {
+    padding-inline-start: 1.5rem;
+}
